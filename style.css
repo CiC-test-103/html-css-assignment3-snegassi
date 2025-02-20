@@ -47,6 +47,119 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /** Your CSS Below **/
+body{
+  background-color:var(--clr-stone100);
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 100px;
+  margin-bottom: 140px;
+ 
+}
+
+.main{
+  background-color: var(--clr-rose50);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding: 40px;
+  border-radius: 20px;
+  
+}
+.seperateBackground{
+  background-color: var(--clr-stone100);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.preparationTitle{
+  color: var(--clr-rose800);
+}
+
+ul.dotColorPrepa li::marker{
+  color:var(--clr-rose800);
+ }
+ .brownBold{
+  color: var(--clr-brown800);
+}
+/* since we used ,dotCClass its only changing ingridients ul color but if we remove that then it applies for everything */
+ul.dotColorIng-Ins li::marker{
+  color: var(--clr-brown800);
+  font-size: var(--fw-bold);
+}
+
+ol.dotColorIng-Ins li::marker{
+  color: var(--clr-brown800);
+  font-size: var(--fw-bold);
+}
+.subtitles{
+  color: var(clr-stone900);
+}
+
+table{
+  padding: 10px;
+} 
+
+.borderBottom{
+  border-bottom: 2px solid white;
+}
+
+.aa{
+  background-color:var(--clr-stone100);
+  
+}
+.ab{
+  background-color: var(--clr-stone150);
+}
+.ac{
+  background-color: var(--clr-stone600);
+}
+.ad{
+  background-color: var(--clr-stone900);
+}
+.ae{
+  background-color: var(--clr-brown800);
+}
+.af{
+  background-color: var(--clr-rose50);
+}
+.ag{
+  background-color: var( --clr-rose800);
+}
+.img{
+  border-radius: 20px;
+}
+.lightBrown{
+  background-color: #FFF7FC;
+  border-radius: 10px;
+}
+
+
+.brownBold2{
+  color: var(--clr-brown800);
+  font-weight: var(--fw-bold);
+}
+.numberColor{
+  color: var(--clr-stone100);
+ 
+}
+
+
+
+.brown{
+  color:  rgb(107, 78, 47);
+  /* font-weight: 200px; */
+}
+.sideToSide{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin-left: 20px;
+  margin-right: 400px;
+}
+
+.lastDiv{
+  
+}
 
 /** Attribution CSS **/
 .attribution { font-size: 11px; text-align: center; }
