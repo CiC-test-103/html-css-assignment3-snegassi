@@ -51,7 +51,7 @@ body{
   background-color:var(--clr-stone100);
   margin-left: 300px;
   margin-right: 300px; 
-   margin-top: 100px;
+  margin-top: 100px;
   margin-bottom: 140px;
 
   
@@ -66,7 +66,7 @@ body{
   border-radius: 20px;
   /* max-width: 70%;
   min-width: ; */
-  
+   font-family: 'Outfit'
 }
 .seperateBackground{
   background-color: var(--clr-stone100);
@@ -76,6 +76,9 @@ body{
 
 .preparationTitle{
   color: var(--clr-rose800);
+  font-size: var( --font-sub-header);
+  padding-left: 15px;
+
 }
 
 ul.dotColorPrepa li::marker{
@@ -84,18 +87,26 @@ ul.dotColorPrepa li::marker{
  .brownBold{
   color: var(--clr-brown800);
 }
-/* since we used ,dotCClass its only changing ingridients ul color but if we remove that then it applies for everything */
+.brownTitles{
+  font-family: 'Young-Serif';
+  /* font-weight: var(--fw-bold); */
+}
+span{
+  color: var(--fw-black);
+  font-weight: var(--fw-bold);
+}
+/* since we used ,dotClass its only changing ingridients dot's of ul color but if we remove that then it applies for everything */
 ul.dotColorIng-Ins li::marker{
   color: var(--clr-brown800);
   font-size: var(--fw-bold);
 }
-
+/* this below was used to change the color of the numbers of instruction */
 ol.dotColorIng-Ins li::marker{
   color: var(--clr-brown800);
   font-size: var(--fw-bold);
 }
 .subtitles{
-  color: var(clr-stone900);
+  color: var(--clr-stone900);
 }
 
 table{
@@ -136,14 +147,6 @@ table{
   border-radius: 10px;
 }
 
-
-/* .brownBold2{
-  color: var(--clr-brown800);
-  font-weight: var(--fw-bold);
-} */
-
-
-
 .sideToSide{
   display: flex;
   justify-content: space-between;
@@ -152,6 +155,15 @@ table{
   margin-right: 200px;
 }
 
+h1{
+  font-size: var(--font-header);
+}
+h2{
+  font-size: var( --font-sub-header);
+}
+p{
+  font-size: var(--font-paragraph);
+}
 
 /** Attribution CSS **/
 .attribution { font-size: 11px; text-align: center; }
